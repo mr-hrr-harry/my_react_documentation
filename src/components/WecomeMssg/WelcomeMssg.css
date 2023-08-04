@@ -1,0 +1,20 @@
+.header_content{
+    text-align: center;
+    margin-left: 22.5%;
+    margin-top: 20%;
+    padding: 10px;
+    width: 800px;
+
+    color: #ffffff;
+    background-color: #007bed;
+    box-shadow: 3px 1px 5px #0f0f0f;
+    border-radius: 10px;
+
+    font-size: 64px;
+    font-weight: 800;
+}
+
+#para_content{
+    text-align: center;
+    margin-top: 20px;
+}
