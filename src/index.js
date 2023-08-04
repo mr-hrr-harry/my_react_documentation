@@ -3,15 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './components/App/App'
 // import WelcomeMssg from './components/WecomeMssg/WelcomeMssg';
-import Card from './components/Card/Card';
+// import Card from './components/Card/Card';
 import reportWebVitals from './reportWebVitals';
+import ClassComp from './components/ClassComp/ClassComp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <WelcomeMssg /> */}
-    <Card/>
+    {/* <Card/> */}
+    <ClassComp />
   </React.StrictMode>
 );
 

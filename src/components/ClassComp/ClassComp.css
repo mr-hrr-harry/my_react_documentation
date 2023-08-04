@@ -1,0 +1,9 @@
+#imgStyles{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#card{
+    margin: 10% auto;
+}

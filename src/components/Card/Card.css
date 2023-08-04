@@ -1,11 +1,12 @@
 #card{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    text-align: center;
     
     margin: 15% auto;
+    min-height: 350px;
+    
     width: 325px;
 
     border: 1px solid black;
@@ -31,4 +32,5 @@
     font-size: 15px;
     padding: 10px 20px ;
     text-align: justify;
+    text-indent: 5px;
 }
