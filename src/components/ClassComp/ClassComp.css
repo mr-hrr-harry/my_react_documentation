@@ -4,6 +4,11 @@
     border-radius: 10px;
 }
 
+#card_Content{
+    text-align: justify;
+    text-indent: 0px;
+}
+
 #card{
     margin: 10% auto;
 }

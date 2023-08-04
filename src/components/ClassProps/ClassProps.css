@@ -1,0 +1,11 @@
+.card{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px  solid #000000;
+    border-radius: 10px;
+}
+
+#headContent{
+    padding-top: 8px;
+}

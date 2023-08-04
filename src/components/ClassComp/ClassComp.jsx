@@ -22,7 +22,7 @@ class ClassComp extends React.Component{
                     </div>
                     <img id='imgStyles' src={Netherlands} alt="netherlands_photo" />
                     <p id='card_Content' style={fontStyle}>
-                        1.The Netherlands is famous for cheese <br />
+                        1. The Netherlands is famous for cheese <br />
                         2. The Netherlands is the world's largest exporter of flowers<br />
                         3. Heineken is the world's second largest beer company<br />
                         4. The Netherlands is known for its flat land<br />

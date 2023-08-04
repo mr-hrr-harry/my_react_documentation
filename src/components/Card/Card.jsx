@@ -1,5 +1,6 @@
 import './Card.css'
 
+// Functional Component
 let Card = () => {
     return(
     <>
