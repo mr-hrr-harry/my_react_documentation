@@ -1,3 +1,5 @@
+This is my repo on react js the way I started to learn and master the ReacytJS. Hope this would help you out!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
