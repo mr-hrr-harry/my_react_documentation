@@ -2,7 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import App from './components/App/App'
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
+import 'font-awesome/css/font-awesome.css'
+
+import App from './components/App/App';
 import WelcomeMssg from './components/WelcomeMssg/WelcomeMssg';
 import Card from './components/FuncComp/Card';
 import ClassComp from './components/ClassComp/ClassComp';
@@ -10,6 +15,7 @@ import ClassProps from './components/ClassProps/ClassProps';
 import FuncProps from './components/FuncProps/FuncProps';
 import ClassStates from './components/ClassStates/ClassStates';
 import FuncStates from './components/FuncStates/FuncStates';
+import BootStrap from './components/Bootstrap/Bootstrap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,7 +35,9 @@ root.render(
 
     {/* <ClassStates></ClassStates> */}
 
-    <FuncStates />
+    {/* <FuncStates /> */}
+    
+    <BootStrap></BootStrap>
 
   </React.StrictMode>
 );

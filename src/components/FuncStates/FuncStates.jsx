@@ -22,17 +22,17 @@ let FuncStates = () => {
         <Fragment>
             <div>
                 <p>
-                    Welcome {students[0].name}. Your age is {students[0].age}yrs
+                    Welcome {students[0].name}. You're {students[0].age}yrs old!
                 </p>
             </div>
             <div>
                 <p>
-                    Welcome {students[1].name}. Your age is {students[1].age}yrs
+                    Welcome {students[1].name}. You're {students[1].age}yrs old!
                 </p>
             </div>
             <div>
                 <p>
-                    Welcome {students[2].name}. Your age is {students[2].age}yrs
+                    Welcome {students[2].name}. You're' {students[2].age}yrs old!
                 </p>
             </div>
         </Fragment>

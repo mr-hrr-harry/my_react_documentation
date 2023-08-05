@@ -1,0 +1,23 @@
+.gap{
+    margin: 10px;
+}
+
+.userStyles{
+    text-align: center;
+    height: 50px;
+}
+
+.content{
+    transform: translate(0% ,50%);
+    font-weight: 700;
+}
+
+.align{
+    text-align: center;
+}
+
+.btns_div{
+    margin-top: 50px;
+    padding: 20px;
+    text-align: end;
+}
