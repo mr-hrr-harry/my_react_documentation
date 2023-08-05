@@ -3,20 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './components/App/App'
-import WelcomeMssg from './components/WecomeMssg/WelcomeMssg';
-import Card from './components/Card/Card';
+import WelcomeMssg from './components/WelcomeMssg/WelcomeMssg';
+import Card from './components/FuncComp/Card';
 import ClassComp from './components/ClassComp/ClassComp';
 import ClassProps from './components/ClassProps/ClassProps';
 import FuncProps from './components/FuncProps/FuncProps';
 import ClassStates from './components/ClassStates/ClassStates';
+import FuncStates from './components/FuncStates/FuncStates';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> 
-    <WelcomeMssg />
-    <Card/>
-    <ClassComp /> */}
+    {/* <App />  */}
+    {/* <WelcomeMssg /> */}
+    {/* <Card/> */}
+    {/* <ClassComp /> */}
 
     {/* <ClassProps name='Harry' age={32} salary='32000' gender='Male'/>
     <ClassProps name='Sudhar' age={25} salary='64000' gender='Male'/>
@@ -26,7 +27,9 @@ root.render(
     <FuncProps name='Sudhar' age='18' salary='100000'></FuncProps>
     <FuncProps name='Joe' age='20' salary='98000'></FuncProps> */}
 
-    <ClassStates></ClassStates>
+    {/* <ClassStates></ClassStates> */}
+
+    <FuncStates />
 
   </React.StrictMode>
 );

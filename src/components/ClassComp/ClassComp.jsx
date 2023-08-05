@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Netherlands from './Netherlands.jpg';
-import '../Card/Card.css'
+import '../FuncComp/Card.css'
 import './ClassComp.css'
 
 class ClassComp extends React.Component{
