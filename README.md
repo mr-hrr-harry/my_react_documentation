@@ -1,4 +1,4 @@
-This is my repo on react js the way I started to learn and master the ReacytJS. Hope this would help you out!
+This is my repo on react js the way I started to learn and master the ReactJS. Hope this would help you out!
 
 # Getting Started with Create React App
 
