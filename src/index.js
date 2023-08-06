@@ -17,6 +17,7 @@ import ClassStates from './components/ClassStates/ClassStates';
 import FuncStates from './components/FuncStates/FuncStates';
 import BootStrap from './components/Bootstrap/Bootstrap';
 import BootstrapCards from './components/Bootstrap2/BootstrapCards';
+import Counter from './components/EventHandling/Counter/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -39,7 +40,8 @@ root.render(
     {/* <FuncStates /> */}
     
     {/* <BootStrap></BootStrap> */}
-    <BootstrapCards></BootstrapCards>
+    {/* <BootstrapCards></BootstrapCards> */}
+    <Counter></Counter>
 
   </React.StrictMode>
 );

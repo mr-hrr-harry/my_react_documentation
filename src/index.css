@@ -4,11 +4,9 @@ body {
   text-align: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;                                                                
-                                                                                         /* React Font */
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;       /* React Font */
 
-  /* font-family: 'REM', sans-serif;                                                      */
-                                                                                        /* Google Fonts */
+  /* font-family: 'REM', sans-serif;                                                     Google Fonts */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
