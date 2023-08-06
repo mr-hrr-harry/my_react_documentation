@@ -1,7 +1,7 @@
 import './Card.css'
 
 // Functional Component
-let Card = () => {
+let FuncComp = () => {
     return(
     <>
         <div id='card'>
@@ -18,4 +18,4 @@ let Card = () => {
     )
 }
 
-export default Card;
+export default FuncComp;

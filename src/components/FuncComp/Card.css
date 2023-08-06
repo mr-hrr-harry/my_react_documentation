@@ -17,8 +17,10 @@
 
 #card_Header{
     margin: 20px;
+    padding-top: 10px;
     width: 300px;
 
+    text-align: center;
     color: #ffffff;
     background-color: #007bed;
     border-radius: 10px;

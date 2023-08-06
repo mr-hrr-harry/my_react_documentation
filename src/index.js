@@ -8,21 +8,22 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 import 'font-awesome/css/font-awesome.css'
 
 import App from './components/App/App';
-import WelcomeMssg from './components/WelcomeMssg/WelcomeMssg';
-import Card from './components/FuncComp/Card';
+import HelloWorld from './components/HelloWorld/HelloWorld';
+import FuncComp from './components/FuncComp/FuncComp';
 import ClassComp from './components/ClassComp/ClassComp';
 import ClassProps from './components/ClassProps/ClassProps';
 import FuncProps from './components/FuncProps/FuncProps';
 import ClassStates from './components/ClassStates/ClassStates';
 import FuncStates from './components/FuncStates/FuncStates';
 import BootStrap from './components/Bootstrap/Bootstrap';
+import BootstrapCards from './components/Bootstrap2/BootstrapCards';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App />  */}
-    {/* <WelcomeMssg /> */}
-    {/* <Card/> */}
+    {/* <HelloWorld /> */}
+    {/* <FuncComp/> */}
     {/* <ClassComp /> */}
 
     {/* <ClassProps name='Harry' age={32} salary='32000' gender='Male'/>
@@ -37,7 +38,8 @@ root.render(
 
     {/* <FuncStates /> */}
     
-    <BootStrap></BootStrap>
+    {/* <BootStrap></BootStrap> */}
+    <BootstrapCards></BootstrapCards>
 
   </React.StrictMode>
 );
