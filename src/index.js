@@ -19,6 +19,7 @@ import BootStrap from './components/Bootstrap/Bootstrap';
 import BootstrapCards from './components/Bootstrap2/BootstrapCards';
 import Counter from './components/EventHandling/Counter/Counter';
 import Greeting from './components/EventHandling/Greetings/Greetings';
+import CartStatus from './components/EventHandling/Cart/CartStatus'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -43,7 +44,9 @@ root.render(
     {/* <BootStrap></BootStrap> */}
     {/* <BootstrapCards></BootstrapCards> */}
     {/* <Counter></Counter> */}
-    <Greeting />
+    {/* <Greeting /> */}
+
+    <CartStatus />
 
   </React.StrictMode>
 );
