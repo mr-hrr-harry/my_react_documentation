@@ -23,6 +23,7 @@ import CartStatus from './components/EventHandling/Cart/CartStatus';
 import CartList from './components/EventHandling/ItemsCart/Items';
 import UpdateComp from './components/FormHandling/TwoWayBinding/BindingTwoWay';
 import LoginTag from './components/FormHandling/Login/Login';
+import LoginOptimal from './components/FormHandling/LoginOptimized/LoginOpt';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -54,7 +55,8 @@ root.render(
 
  
     {/* <UpdateComp /> */}
-    <LoginTag></LoginTag>
+    {/* <LoginTag></LoginTag> */}
+    <LoginOptimal></LoginOptimal>
 
   </React.StrictMode>
 );
