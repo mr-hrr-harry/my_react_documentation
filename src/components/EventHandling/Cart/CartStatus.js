@@ -29,7 +29,7 @@ let Cart = () => {
             <div className="container shadow-lg mt-5 ">
                 <div className="row">
                     <div className="col mt-5">
-                        <table className="table table-stripped text-center table-hover">
+                        <table className="table table-stripped text-center">
                             <tr className="bg-dark text-white ">
                                 <th>S.No</th>
                                 <th>Image</th>

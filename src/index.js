@@ -20,12 +20,13 @@ import BootstrapCards from './components/Bootstrap2/BootstrapCards';
 import Counter from './components/EventHandling/Counter/Counter';
 import Greeting from './components/EventHandling/Greetings/Greetings';
 import CartStatus from './components/EventHandling/Cart/CartStatus'
+import CartList from './components/EventHandling/ItemsCart/Items';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App />  */}
-    {/* <HelloWorld /> */}
+    <HelloWorld />
     {/* <FuncComp/> */}
     {/* <ClassComp /> */}
 
@@ -46,7 +47,8 @@ root.render(
     {/* <Counter></Counter> */}
     {/* <Greeting /> */}
 
-    <CartStatus />
+    {/* <CartStatus /> */}
+    <CartList></CartList>
 
   </React.StrictMode>
 );
