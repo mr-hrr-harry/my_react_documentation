@@ -22,6 +22,7 @@ import Greeting from './components/EventHandling/Greetings/Greetings';
 import CartStatus from './components/EventHandling/Cart/CartStatus';
 import CartList from './components/EventHandling/ItemsCart/Items';
 import UpdateComp from './components/FormHandling/TwoWayBinding/BindingTwoWay';
+import LoginTag from './components/FormHandling/Login/Login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -51,7 +52,9 @@ root.render(
     {/* <CartStatus /> */}
     {/* <CartList></CartList> */}
 
-    <UpdateComp />
+ 
+    {/* <UpdateComp /> */}
+    <LoginTag></LoginTag>
 
   </React.StrictMode>
 );
