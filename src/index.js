@@ -23,9 +23,10 @@ import CartStatus from './components/EventHandling/Cart/CartStatus';
 import CartList from './components/EventHandling/ItemsCart/Items';
 import UpdateComp from './components/FormHandling/TwoWayBinding/BindingTwoWay';
 import LoginTag from './components/FormHandling/Login/Login';
-import LoginOptimal from './components/FormHandling/LoginOptimized/LoginOpt';
+import LoginOptimal from './components/FormHandling/LoginOptimized/LoginOpt'; 
 import RegisterComp from './components/FormHandling/Registration/RegisterForm';
 import CondRender from './components/Rendering/ConditionalRendering/CondRender';
+import ListRender from './components/Rendering/ListRendering/ListRender';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -61,7 +62,8 @@ root.render(
     {/* <LoginOptimal></LoginOptimal> */}
     {/* <RegisterComp></RegisterComp> */}
 
-    <CondRender task='Conditional Rendering'></CondRender>
+    {/* <CondRender task='Conditional Rendering'></CondRender> */}
+    <ListRender task="List Rendering"></ListRender>
     
 
   </React.StrictMode>
