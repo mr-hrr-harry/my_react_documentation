@@ -54,7 +54,6 @@ let RegisterComp = () => {
                             <input
                                 type="text"
                                 name='name'
-                                // value={}
                                 className='m-3 p-3 border-1 rounded'
                                 placeholder='Name'
                                 onChange={updateView}
@@ -76,15 +75,15 @@ let RegisterComp = () => {
 
                             <div className='d-flex justify-content-between m-3' style={myStyles}
                             onClick={updateView}>
-                                <label htmlFor="gender" className='fw-bold' name='gender' >Gender: </label><br />
+                                <label htmlFor="gender" className='fw-bold' >Gender: </label><br />
                                 <div>
                                     <input type="radio" name='gender' value={'Male'} className='m-1' />
-                                    <label htmlFor="male" >Male</label>
+                                    <label htmlFor="Male" >Male</label>
                                 </div>
 
                                 <div>
                                     <input type="radio" name='gender' value={'Female'} className='m-1' />
-                                    <label htmlFor="female">Female</label>
+                                    <label htmlFor="Female">Female</label>
                                 </div>
                             </div>
 

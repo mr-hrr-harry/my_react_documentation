@@ -25,6 +25,7 @@ import UpdateComp from './components/FormHandling/TwoWayBinding/BindingTwoWay';
 import LoginTag from './components/FormHandling/Login/Login';
 import LoginOptimal from './components/FormHandling/LoginOptimized/LoginOpt';
 import RegisterComp from './components/FormHandling/Registration/RegisterForm';
+import CondRender from './components/Rendering/ConditionalRendering/CondRender';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -58,7 +59,10 @@ root.render(
     {/* <UpdateComp /> */}
     {/* <LoginTag></LoginTag> */}
     {/* <LoginOptimal></LoginOptimal> */}
-    <RegisterComp></RegisterComp>
+    {/* <RegisterComp></RegisterComp> */}
+
+    <CondRender task='Conditional Rendering'></CondRender>
+    
 
   </React.StrictMode>
 );
