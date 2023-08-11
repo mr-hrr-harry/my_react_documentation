@@ -52,7 +52,7 @@ let LoginOptimal = () => {
 
                         <input
                             type="submit"
-                            className="border bg-danger text-white p-2 m-3"
+                            className="btn bg-danger text-white p-2 m-3"
                             value={'LOGIN'}
                         />
 
