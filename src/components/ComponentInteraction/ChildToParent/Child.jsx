@@ -17,7 +17,7 @@ let ChildComponent2 = (props) => {
             </p>
             <p >{props.data} displayed by Child</p>
             <button className="rounded bg-success text-white p-2 m-2" onClick={clickListener}>Child Send</button>
-        </>
+        </> 
     )
 
 }
