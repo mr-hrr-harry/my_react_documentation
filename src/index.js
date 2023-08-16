@@ -29,6 +29,7 @@ import CondRender from './components/Rendering/ConditionalRendering/CondRender';
 import ListRender from './components/Rendering/ListRendering/ListRender';
 import ProductPage from './components/Rendering/ServiceRendering/ServiceRender';
 import ParentComponent from './components/ComponentInteraction/ParentToChild/Parent';
+import ParentComponent2 from './components/ComponentInteraction/ChildToParent/Parent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -60,7 +61,7 @@ root.render(
 
  
     {/* <UpdateComp /> */}
-    {/* <LoginTag></LoginTag> */}
+    {/* <LoginTag></LoginTag> */} 
     {/* <LoginOptimal></LoginOptimal> */}
     {/* <RegisterComp></RegisterComp> */}
 
@@ -68,7 +69,8 @@ root.render(
     {/* <ListRender task="List Rendering"></ListRender> */}
 
     {/* <ProductPage task="Product List"></ProductPage> */}
-    <ParentComponent></ParentComponent>
+    {/* <ParentComponent></ParentComponent> */}
+    <ParentComponent2></ParentComponent2>
 
 
   </React.StrictMode>
