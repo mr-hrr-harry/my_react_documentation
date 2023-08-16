@@ -27,6 +27,7 @@ import LoginOptimal from './components/FormHandling/LoginOptimized/LoginOpt';
 import RegisterComp from './components/FormHandling/Registration/RegisterForm';
 import CondRender from './components/Rendering/ConditionalRendering/CondRender';
 import ListRender from './components/Rendering/ListRendering/ListRender';
+import ProductPage from './components/Rendering/ServiceRendering/ServiceRender';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -63,8 +64,9 @@ root.render(
     {/* <RegisterComp></RegisterComp> */}
 
     {/* <CondRender task='Conditional Rendering'></CondRender> */}
-    <ListRender task="List Rendering"></ListRender>
-    
+    {/* <ListRender task="List Rendering"></ListRender> */}
+
+    <ProductPage task="Product List"></ProductPage>
 
   </React.StrictMode>
 );
