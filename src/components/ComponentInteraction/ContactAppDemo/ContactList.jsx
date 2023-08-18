@@ -6,7 +6,7 @@ let ContactList = (props) => {
 
     let [state, setState] = useState({
         contacts: Services.getData()
-    })
+    }) 
 
     let { contacts } = state
 

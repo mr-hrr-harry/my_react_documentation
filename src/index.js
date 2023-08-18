@@ -31,6 +31,7 @@ import ProductPage from './components/Rendering/ServiceRendering/ServiceRender';
 import ParentComponent from './components/ComponentInteraction/ParentToChild/Parent';
 import ParentComponent2 from './components/ComponentInteraction/ChildToParent/Parent';
 import ContactApp from './components/ComponentInteraction/ContactAppDemo/ContactApp';
+import DigiTimer from './components/LifeCycleMethods/DigitalTimer/Timer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -68,13 +69,13 @@ root.render(
 
     {/* <CondRender task='Conditional Rendering'></CondRender> */}
     {/* <ListRender task="List Rendering"></ListRender> */}
-
     {/* <ProductPage task="Product List"></ProductPage> */}
+
     {/* <ParentComponent></ParentComponent> */}
     {/* <ParentComponent2></ParentComponent2> */}
+    {/* <ContactApp /> */}
 
-    <ContactApp />
-
+    <DigiTimer />
 
   </React.StrictMode>
 );
