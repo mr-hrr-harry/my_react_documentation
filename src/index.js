@@ -30,7 +30,7 @@ import ListRender from './components/Rendering/ListRendering/ListRender';
 import ProductPage from './components/Rendering/ServiceRendering/ServiceRender';
 import ParentComponent from './components/ComponentInteraction/ParentToChild/Parent';
 import ParentComponent2 from './components/ComponentInteraction/ChildToParent/Parent';
-import ContactApp from './components/ContactAppDemo/ContactApp';
+import ContactApp from './components/ComponentInteraction/ContactAppDemo/ContactApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
