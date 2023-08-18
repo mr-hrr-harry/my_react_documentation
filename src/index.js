@@ -30,6 +30,7 @@ import ListRender from './components/Rendering/ListRendering/ListRender';
 import ProductPage from './components/Rendering/ServiceRendering/ServiceRender';
 import ParentComponent from './components/ComponentInteraction/ParentToChild/Parent';
 import ParentComponent2 from './components/ComponentInteraction/ChildToParent/Parent';
+import ContactApp from './components/ContactAppDemo/ContactApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -70,7 +71,9 @@ root.render(
 
     {/* <ProductPage task="Product List"></ProductPage> */}
     {/* <ParentComponent></ParentComponent> */}
-    <ParentComponent2></ParentComponent2>
+    {/* <ParentComponent2></ParentComponent2> */}
+
+    <ContactApp />
 
 
   </React.StrictMode>
