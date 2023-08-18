@@ -32,6 +32,7 @@ import ParentComponent from './components/ComponentInteraction/ParentToChild/Par
 import ParentComponent2 from './components/ComponentInteraction/ChildToParent/Parent';
 import ContactApp from './components/ComponentInteraction/ContactAppDemo/ContactApp';
 import DigiTimer from './components/LifeCycleMethods/DigitalTimer/Timer';
+import ServerDataComp from './components/LifeCycleMethods/ServerData/ServerData';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -75,7 +76,9 @@ root.render(
     {/* <ParentComponent2></ParentComponent2> */}
     {/* <ContactApp /> */}
 
-    <DigiTimer />
+    {/* <DigiTimer /> */}
+
+    <ServerDataComp />
 
   </React.StrictMode>
 );
