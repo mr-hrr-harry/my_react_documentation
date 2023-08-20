@@ -34,7 +34,7 @@ import ContactApp from './components/ComponentInteraction/ContactAppDemo/Contact
 import DigiTimer from './components/LifeCycleMethods/DigitalTimer/Timer';
 import ServerDataComp from './components/LifeCycleMethods/ServerData/ServerData';
 import AsyncServerData from './components/LifeCycleMethods/ServerAsyncData/ServerAsync';
-
+import HomePage from './modules/home/components/HomePage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -80,7 +80,9 @@ root.render(
 
     {/* <DigiTimer /> */}
     {/* <ServerDataComp /> */}
-    <AsyncServerData />
+    {/* <AsyncServerData /> */}
+
+    <HomePage />
 
   </React.StrictMode>
 );
