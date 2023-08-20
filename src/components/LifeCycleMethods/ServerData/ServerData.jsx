@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+
 import ServerData from "../../../services/APIData"
 
 let ServerDataComp = () => {
@@ -6,7 +7,6 @@ let ServerDataComp = () => {
     let [state, setState] = useState({
         users: []
     })
-
 
     useEffect(() => {
         ServerData.fetchData().then((res) => {
