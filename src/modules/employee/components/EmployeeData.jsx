@@ -1,7 +1,7 @@
 let EmployeeData = () => {
     return(
         <div>
-            This is EmployeeData !
+            This is Employee Data !
         </div>
     )
 }
